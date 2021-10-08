@@ -7,7 +7,7 @@
 int a,b,c;
 main()
 {
-    printf("Ingrese los valores enteros de a, b y c: ");
+    printf("Ingrese los valores enteros de a, b y c : ");
     scanf(" %d %d %d",&a,&b,&c);
     if(a<b)
     {
