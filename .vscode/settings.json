@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "2.C": "cpp",
-        "SIe1.C": "cpp"
+        "SIe1.C": "cpp",
+        "conio.h": "c"
     }
 }
