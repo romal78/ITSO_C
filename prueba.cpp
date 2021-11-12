@@ -1,17 +1,18 @@
-//2. Generar la serie para N términos: -2, 2, 0, 2, 2, 4, 6…
+//2. Generar la serie para N términos: 0 5 15 30 50 75 105
 #include<iostream>
 using namespace std;
 int main()
 {
-	int n,a,b,c;
+	int n,a,b,c,d;
     cout<<"Limite:";
 	cin>>n;
-    a=4;b=-2;c=-2;
+    a=0;b=5;c=0;d=0;
 for (int i = 1; i <= n; i++)
     {   
-        cout<<c<<",";
-        c=a+b;
-        a=b;
+        c=a+b; 
+        cout<<d<<",";
+        d=d+c;
+        a=5;
         b=c;        
     }
     cout<<endl;
