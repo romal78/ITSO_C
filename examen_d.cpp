@@ -1,6 +1,6 @@
 // 10. Generar la serie para N términos (tres tiempos): 0, 2, 1, 0, 3, 2, 0, 5, 3, 0, 8, 4,… 
-#include<iostream>
-using namespace std;
+#include<iostream.h>
+//using namespace std;
 int main()
 {
 	int sumaserie,n,a,b,c,p,q,r,x,y, flag;

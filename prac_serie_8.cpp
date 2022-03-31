@@ -1,4 +1,4 @@
-//7. Generar la serie para N términos:   2, 1, 4, 3, 6, 5, 8, 7 
+//8. Generar la serie para N términos:   2, 1, 4, 3, 6, 5, 8, 7 
 #include<iostream>
 using namespace std;
 int main()
